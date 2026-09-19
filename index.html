@@ -74,7 +74,13 @@
          function show(){
             if(name.value == "" || address.value == "" || phone.value == "") 
          {
+            message.textContent="fill all the fields"
             alert("fill all the fields")
+
+            setTimeout(function()
+            {
+                Window.location.href = "cafe.html"},2000)
+            }
             
 
          else{
